@@ -2,7 +2,7 @@
 Program to find saddle point or optimal strategy for <b>2-Persons-Zero-Sum Game</b>
 Finding one optimal strategy or saddle point <br><br>
 <center>
-  <code>Enter
+  <pre>Enter
 1.)Number of rows
 2.)Number of columns
 5
@@ -51,7 +51,5 @@ Finding one optimal strategy or saddle point <br><br>
                  Saddle point exists for this Payoff matrix
                 Value of Game = 4
 
-                Player-1 is the winner</code>.
-                
-                ---------------------------------
-                </center>
+                Player-1 is the winner
+           
