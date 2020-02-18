@@ -50,4 +50,7 @@ Finding one optimal strategy or saddle point <br><br>
                  Saddle point exists for this Payoff matrix
                 Value of Game = 4
 
-                Player-1 is the winner</pre></center>
+                Player-1 is the winner.
+                
+                
+                <br></pre></center>
