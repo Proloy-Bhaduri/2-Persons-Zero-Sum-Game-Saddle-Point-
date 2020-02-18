@@ -7,4 +7,4 @@ Finding one optimal strategy or saddle point <br><br>
   <b>Test Case 2<b><br>
 <center><img src="https://github.com/Proloy-Bhaduri/Saddle-Point/blob/master/src/screenshot.JPG"></center><br>
     <b>Test Case 3<b><br>
-<center><img src="https://github.com/Proloy-Bhaduri/Saddle-Point/blob/master/srcscreenshot3.JPG"></center><br>
+<center><img src="https://github.com/Proloy-Bhaduri/Saddle-Point/blob/master/srcreenshot3.JPG"></center><br>
