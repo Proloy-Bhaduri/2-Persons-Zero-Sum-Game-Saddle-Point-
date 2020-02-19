@@ -1,6 +1,8 @@
 # Saddle-Point
 Program to find saddle point or optimal strategy for <b>2-Persons-Zero-Sum Game</b>
 Finding one optimal strategy or saddle point <br><br>
+<b>Saddle point = (Ai,Bj)</b>=> saddle point is at (<b>i</b>-th Row,<b>j</b>-th Column) of the augmented pay-off matrix 
+<br>
 <b>Test Case 1<b><br>
 <center><img src="https://github.com/Proloy-Bhaduri/Saddle-Point/blob/master/src/screenshot2.JPG"></center>
   <br>
