@@ -25,6 +25,7 @@ Finding one optimal strategy or saddle point <br><br>
 1
 0
 ---------------------------------------The Pay-off Matrix that you entered is:---------------------------------------
+
                    0               1               1
 
                   -1               0              -1
