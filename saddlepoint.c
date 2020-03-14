@@ -9,21 +9,16 @@ int main()
     for(i=0;i<row;i++)
        {
            for(j=0;j<col;j++)
-           {
               scanf("%d",&Pay_off_Arr[i][j]);
-           }
        }
        printf("---------------------------------------");
        printf("The Pay-off Matrix that you entered is:");
        printf("---------------------------------------\n");
-
-
-       for(i=0;i<row;i++)
+    for(i=0;i<row;i++)
        {
            for(j=0;j<col;j++)
            {
-
-              printf("\t\t%4d",Pay_off_Arr[i][j]);
+               printf("\t\t%4d",Pay_off_Arr[i][j]);
            }
            printf("\n\n");
        }//end of matrix printing
@@ -31,15 +26,11 @@ int main()
        {
            Rowminn = Pay_off_Arr[i][0];
            for(j=1;j<col;j++)
-           {
-
-             // printf("\t\t%4d",Pay_off_Arr[i][j]);
+           {// printf("\t\t%4d",Pay_off_Arr[i][j]);
               if(Rowminn>Pay_off_Arr[i][j])
                    Rowminn = Pay_off_Arr[i][j];
-
-            }
-
-           Rowmin[i] = Rowminn;
+           }
+          Rowmin[i] = Rowminn;
        }//end of rowmin calculation
         printf("\t\tRow-minimums are: ");
        for(i=0;i<row;i++)
@@ -50,20 +41,17 @@ int main()
            int Colmaxx = Pay_off_Arr[0][j];
            for(i=1;i<row;i++)
            {
-
              // printf("\t\t%4d",Pay_off_Arr[i][j]);
               if(Colmaxx<Pay_off_Arr[i][j])
                    Colmaxx = Pay_off_Arr[i][j];
 
             }
-
-           Colmax[j] = Colmaxx;
+          Colmax[j] = Colmaxx;
        }
        printf("\n\t\tColumn-maximums are: ");
        for(j=0;j<col;j++)
           printf("%d ",Colmax[j]);
-
-          //calculating max of Rowmin[i]
+         //calculating max of Rowmin[i]
           int maxof_rowmin = Rowmin[0];
           for(i=1;i<row;i++)
           {
@@ -72,10 +60,8 @@ int main()
                      maxof_rowmin = Rowmin[i];
 
                  }
-
           }
-
-          printf("\n\t\tMaximum of rowmins is : %d\n\n",maxof_rowmin);
+ printf("\n\t\tMaximum of rowmins is : %d\n\n",maxof_rowmin);
           //calculating minimum of colmax[j]
           int minof_colmax = Colmax[0];
 
@@ -123,11 +109,6 @@ int main()
             }
           else
              printf("\n\t\tSaddle point  doesn't exists for this Payoff matrix\n\t\tValue of Game = Undefined\n\n");
-
-
-
 getch();
 return 0;
-
 }
-
